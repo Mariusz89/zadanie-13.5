@@ -1,5 +1,5 @@
 var os = require('os');
-var getOSinfo = require('../modules/getOSInfo');
+var getOSinfo = require('./modules/getOSInfo');
 
 process.stdin.setEncoding('utf-8');
 process.stdin.on('readable', function() {
